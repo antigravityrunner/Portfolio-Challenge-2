@@ -6,6 +6,9 @@ body {
   flex-direction: column;
   background-color: #75e6da;
 }
+/*
+BOX
+*/
 
 .box{
     width: 450px;
@@ -20,6 +23,9 @@ body {
   border-radius: 25px;
   color: orange;
 }
+/*
+Header
+*/
 
 header {
   padding: 5px;
@@ -66,8 +72,7 @@ li a {
 main {
 }
 
-section {
-}
+Button function 
 
 footer {
 }
