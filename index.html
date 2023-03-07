@@ -11,11 +11,11 @@
       <h1>Nina's Portfolio</h1>
       <nav class="menu">
         <ul>
-          <li class="button"><a href="#">About Me</a></li>
+          <li class="button"><a href="#aboutMe">About Me</a></li>
 
-          <li class="button"><a href="#">Work</a></li>
+          <li class="button"><a href="#work">Work</a></li>
 
-          <li class="button"><a href="#">Contact Me</a></li>
+          <li class="button"><a href="#contactMe">Contact Me</a></li>
 
           <li class="button"><a href="#">Resume</a></li>
         </ul>
@@ -26,7 +26,7 @@
       <h2></h2>
       <p>Welcome to my portfolio</p>
 
-      <section class="box">
+      <section id="aboutMe" class="box">
         <h4 class="boxHeader">About Me:</h4>
         <img class="selfieImg" src="./assets/images/nina-selfie.jpg" />
         <br />
@@ -35,15 +35,25 @@
         I'm learning how to become a web developer.
       </section>
 
-      <section class="box"><h4 class="boxHeader">Work:</h4></section>
-
-      <section class="box"><h4 class="boxHeader">Contact Me:</h4>
-        <a href="">GitHub</a>
-        <br>
-        <a href="mailto:">ninasandler33@gmail.com</a>
+      <section id="work" class="box">
+        <h4 class="boxHeader">Work:</h4>
+        <a href="https://antigravityrunner.github.io/Horiseon-Challange-1/">
+          <img src="./assets/images/horiseon-thumbnail.png" class="selfieImg" />
+        </a>
+        <h5>Horiseon Semantic HTML Practice</h5>
       </section>
 
-      <section class="box"><h4 class="boxHeader">Resume</h4></section>
+      <section id="contactMe" class="box">
+        <h4 class="boxHeader">Contact Me:</h4>
+        GitHub: <a href="">antigravityrunner</a>
+        <br />
+        Email: <a href="mailto:">ninasandler33@gmail.com</a>
+        <br />
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/nina-sandler-448758187/"
+          >Nina Sandler</a
+        >
+      </section>
     </section>
     <footer></footer>
   </body>
