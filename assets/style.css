@@ -3,7 +3,6 @@ body {
   color: #05445e;
   margin: 0;
   /* display: flex; */
-  flex-direction: column;
   background-color: #75e6da;
 }
 /*
@@ -12,6 +11,7 @@ BOX
 
 .box {
   width: 80vw;
+  max-width: 720px;
   /* inline-size: 450px;
   block-size: 100px; */
   margin: 25px;
@@ -33,17 +33,35 @@ header {
   text-align: center;
 }
 
+.Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30pt;
+}
+
 /*
 NAV BAR STUFF
 */
 
 .selfieImg {
-  width: 100%;
+  max-width: 100%;
+  max-height: 50vh;
 }
 
 .boxHeader {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  nav ul {
+    font-size: 30pt;
+  }
 }
 
 nav ul {
@@ -78,11 +96,12 @@ li a {
   color: orange;
 }
 
-/*
-main {
+.contactmeList {
+color: rgb(226, 183, 102);
+
 }
 
-Button function 
+/*
 
 footer {
 }
